@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+header,
+.hero,
+.info-container,
+.box-container {
+    padding: 20px 10%;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.btn {
+    margin: 0;
+    padding: 6px 25px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #E5E7EB;
+    background-color: #3882F6;
+
+}
+
+.btn.btn-primary {
+    border: none; 
+}
+
+.btn-secondary {
+    border: 1px solid white;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav .nav-link {
+    margin-left: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px !important;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hero-text {
+    width: 400px;
+}
+
+.hero .hero-text .main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.nav,
+.hero .hero-text .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 10px;
+}
+
+.hero .hero-image {
+    height: 180px;
+    width: 400px;
+    background-color: #7e858f;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.39);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.info-container .card-wrapper {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.info-container .card-wrapper .card {
+    width: 150px;
+}
+
+.info-container .image {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border: 4px solid #3882F6;
+    display: inline-block;
+}
+
+.quote-container .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+    width: 80;
+}
+
+.box-container .box {
+    color: white;
+    display: flex;
+    margin: 5px;
+    padding: 30px 40px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote-container {
+    padding: 90px 15%;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+footer {
+    height: 100px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.bg-dark {
+    background-color: #1F2937;
+}
+
+.bg-grey {
+    background-color: #E5E7EB;
+}
